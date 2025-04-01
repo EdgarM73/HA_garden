@@ -1,0 +1,16 @@
+{
+    "name": "Smarthome Garten",
+    "version": "1.0.0",
+    "slug": "smarthome_garten",
+    "description": "Visualisierung eines Smart Home-Gartens basierend auf Sensorwerten",
+    "startup": "application",
+    "boot": "auto",
+    "webui": "http://[HOST]:[PORT]",
+    "ports": {
+      "5000/tcp": 5000
+    },
+    "image": "local/addon-smarthome-garten",
+    "options": {},
+    "schema": {}
+  }
+  
